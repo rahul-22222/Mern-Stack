@@ -1,0 +1,9 @@
+p{
+    background-color: aqua;
+    width: 36px;
+    /* border-style:solid; */
+    border: 2px solid red;
+    outline: 3px solid yellow;
+    outline-offset: 2px;
+    margin: 20px;
+}

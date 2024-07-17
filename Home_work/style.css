@@ -1,0 +1,32 @@
+/* h1{
+    color: red;
+}
+#head{
+    color: blue;
+}*/
+/* .css{
+    color: red;
+    background-color: yellow;
+} */
+/* #bo{
+    color:gray;
+    background-color: aqua;
+} */
+ p,h1{
+    color: yellow;
+    background-color: red;
+ }
+ /* *{
+    background-color: brown;
+    color: green;
+ } */
+ h1{
+    color:white;
+    background-color: black;
+ }
+ /* h1.css{
+    color: blueviolet;
+ } */
+ div h1{
+    color: aquamarine;
+ }

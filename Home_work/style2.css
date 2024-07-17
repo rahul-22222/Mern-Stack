@@ -1,0 +1,7 @@
+input[name]{
+    color: red;
+    background-color: aqua;
+}
+input[type="text"]{
+    background-color:blue;
+}

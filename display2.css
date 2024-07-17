@@ -1,0 +1,13 @@
+div{
+    border: 2px solid blueviolet;
+}
+p{
+    background-color: yellow;
+    height: 70px;
+    width: 100px;
+    /* display: inline; */
+    /* display: flex;  */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
+}

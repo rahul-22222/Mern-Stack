@@ -1,0 +1,328 @@
+Live server
+HTML CSS Support
+JavaScript (ES6) code snippets
+Material Icon Theme
+Auto Rename Tag
+Better Comments
+Path Intellisense
+IntelliSense for CSS class names in HTML
+
+
+-------------------------
+<!DOCTYPE html>
+<html>
+<head>
+   <title>HTML Session</title>
+   
+   <!-- <link rel="icon"  href="./cat.jpg"> -->
+   <link rel="icon" href="https://media.istockphoto.com/id/157330341/photo/a-full-single-red-rose-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=eGw-ScUBwV5GZnTXRl4TwyuourAECWLL59R-cFucSfo=">
+</head>
+<body>
+    welcome to html class <br><br>
+    class timing is 5am <br><br>
+    we are good students <br>
+    becuase we are attending 5am classes
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis sequi necessitatibus minima sint amet tempore quia provident unde non aspernatur omnis ratione ipsa, ea corporis quod voluptates dolor suscipit!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis sequi necessitatibus minima sint amet tempore quia provident unde non aspernatur omnis ratione ipsa, ea corporis quod voluptates dolor suscipit!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis sequi necessitatibus minima sint amet tempore quia provident unde non aspernatur omnis ratione ipsa, ea corporis quod voluptates dolor suscipit!
+    </p>
+</body>
+</html>
+
+
+
+
+----------------------
+
+ <p>hello</p>
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+-------------------------
+
+<img src="./dog.jpg" width="300px" height="250px" title="Cat" alt="No Image">
+   <img width="300px" height="250px" src="https://cdn.pixabay.com/photo/2016/11/22/22/20/rose-1850903_640.jpg" title="Flower" >
+
+---------------------------------------
+
+ <!-- <video src="./day 2 introduction.wmv" controls></video> -->
+   <video src="./rabbit.mp4" controls></video>
+
+--------------------------
+
+  <audio src="./Pushpa Pushpa - Pushpa 2.mp3" controls></audio>
+
+----------------------
+
+ <!-- <iframe src="https://www.youtube.com/embed/GsfYqyKnHfY" allowfullscreen></iframe>
+
+  <iframe src="./test.html" ></iframe> -->  
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9415380486575!2d77.66645537380803!3d12.847052517599264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae149285b279d1%3A0x8d1750ebbe9a9c0a!2sNTTF%20Electronics%20%26%20IT!5e0!3m2!1sen!2sin!4v1720224228137!5m2!1sen!2sin" width="600" height="450" ></iframe>
+
+ ----------------------------------------------------
+<!-- <h1>MERN</h1> 
+ <ol type="I">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ol>
+
+ <hr>
+
+ <ol type="1" start="11">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ol>
+
+ <hr>
+
+ <ol type="A" start="13">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ol> -->
+
+ <h1>MERN</h1> 
+ <ul type="disc">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ul>
+
+ <hr>
+
+ <ul type="square">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ul>
+
+ <hr>
+
+ <ul type="circle">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ul>
+--------------------------------------------------
+
+ <dl>
+        <dt>MongoDB</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae dolore culpa commodi itaque eligendi adipisci temporibus nemo nulla ducimus, illo minima ab, numquam veritatis atque alias doloribus aliquam cumque?</dd>
+    </dl>
+
+    <dl>
+        <dt>Reactjs</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae dolore culpa commodi itaque eligendi adipisci temporibus nemo nulla ducimus, illo minima ab, numquam veritatis atque alias doloribus aliquam cumque?</dd>
+    </dl>
+
+    <dl>
+        <dt>Nodejs</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae dolore culpa commodi itaque eligendi adipisci temporibus nemo nulla ducimus, illo minima ab, numquam veritatis atque alias doloribus aliquam cumque?</dd>
+    </dl>
+
+    <dl>
+        <dt>Expressjs</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae dolore culpa commodi itaque eligendi adipisci temporibus nemo nulla ducimus, illo minima ab, numquam veritatis atque alias doloribus aliquam cumque?</dd>
+    </dl>
+----------------------------------------------------------------
+
+<marquee scrollamount="30">MongoDb</marquee>
+    <!-- <marquee direction="right" behavior="slide" loop="4">Express</marquee> -->
+    <marquee direction="right" behavior="alternate" scrollamount="20" loop="10">Express</marquee>
+
+    <marquee height="100px" bgcolor="red" direction="up" scrolldelay="1000">React</marquee>
+    <marquee height="100px" bgcolor="yellow" direction="down" loop="4">Nodejs</marquee>
+
+    <marquee behavior="alternate" scrollamount="20">
+        <img src="./cat.jpg" height="100px" width="100px">
+    </marquee>
+-------------------------------------------------------
+
+ <details>
+        <summary>MonogoDb</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum cupiditate facere doloremque ut tempore iure labore officiis voluptatem ipsam ad perspiciatis aperiam quis quod aliquid reiciendis neque molestiae optio.</p>
+    </details>
+
+    <details>
+        <summary>Express</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum cupiditate facere doloremque ut tempore iure labore officiis voluptatem ipsam ad perspiciatis aperiam quis quod aliquid reiciendis neque molestiae optio.</p>
+    </details>
+
+    <details>
+        <summary>Reactjs</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum cupiditate facere doloremque ut tempore iure labore officiis voluptatem ipsam ad perspiciatis aperiam quis quod aliquid reiciendis neque molestiae optio.</p>
+    </details>
+
+    <details>
+        <summary>Nodejs</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum cupiditate facere doloremque ut tempore iure labore officiis voluptatem ipsam ad perspiciatis aperiam quis quod aliquid reiciendis neque molestiae optio.</p>
+    </details>
+</body>
+</html>
+----------------------------------------------------------------------------------------
+ <!-- <a href="./test.html">Test</a> <br>
+    <a href="https://www.goodreturns.in/gold-rates/bangalore.html">Bangalore Gold Rate</a>
+   
+    <a href="./rabbit.mp4">
+        <img height="50px" width="50px" src="./cat.jpg" alt="">
+    </a>
+
+    <a href="./cat.jpg">Cat</a> -->
+
+    <img src="./cat.jpg" height="100px" width="100px" alt="">
+    <!-- <a href="./Pushpa Pushpa - Pushpa 2.mp3" download>Download</a> -->
+    <a href="./Pushpa Pushpa - Pushpa 2.mp3" download="raju">Download</a>
+
+<a href="#html" title="Hyper Text Markup Language">HTML</a><hr>
+   <a href="#css">CSS</a><hr>
+   <a href="#js" target="_blank">Javascript</a><hr>
+   <a href="#rjs">Reactjs</a><hr>
+   <a href="#mdb">MongoDB</a><hr>
+   
+
+   <h1 id="html">HTML</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+   <hr>
+   <h1 id="css">CSS</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+   <hr>
+   <h1 id="js">Javascript</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+   <hr>
+   <h1 id="rjs">Reactjs</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+   <hr>
+
+   <h1 id="mdb">MongoDB</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+
+------------------------------------------------
+ <table border cellspacing="20px" cellpadding="20px" rules="all">
+        <thead>
+            <tr>
+                <th>SL No</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ram Kumar</td>
+                <td>CSE</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Raj Kumar</td>
+                <td>CSE</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pawan Kumar</td>
+                <td>CSE</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kalyan Kumar</td>
+                <td>CSE</td>
+                <td>Male</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Total</td>
+                <th>4</th>
+            </tr>
+        </tfoot>
+    </table>
+
+----------------------------------------------
+<table border  rules="all" cellspacing="30px">
+       <tr>
+        <td colspan="2">Apple1</td>
+        <!-- <td>Apple2</td> -->
+        <td>Apple3</td>
+        <td>Apple4</td>
+        <td>Apple5</td>
+       </tr>
+       <tr>
+        <td>Apple6</td>
+        <td colspan="4">Apple7</td>
+        <!-- <td>Apple8</td>
+        <td>Apple9</td>
+        <td>Apple10</td> -->
+       </tr>
+       <tr>
+        <td rowspan="2">Apple11</td>
+        <td rowspan="3">Apple12</td>
+        <td>Apple13</td>
+        <td rowspan="3">Apple14</td>
+        <td>Apple15</td>
+       </tr>
+       <tr>
+        <!-- <td>Apple16</td> -->
+        <!-- <td>Apple17</td> -->
+        <td>Apple18</td>
+        <!-- <td>Apple19</td> -->
+        <td>Apple20</td>
+       </tr>
+       <tr>
+        <td>Apple21</td>
+        <!-- <td>Apple22</td> -->
+        <!-- <td>Apple23</td> -->
+        <td>Apple24</td>
+        <td>Apple25</td>
+       </tr>
+       <tr>
+        <td colspan="5">Apple26</td>
+        <!-- <td>Apple27</td>
+        <td>Apple28</td>
+        <td>Apple29</td>
+        <td>Apple30</td> -->
+       </tr>
+    </table>

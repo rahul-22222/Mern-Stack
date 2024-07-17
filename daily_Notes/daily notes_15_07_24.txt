@@ -1,0 +1,1001 @@
+Live server
+HTML CSS Support
+JavaScript (ES6) code snippets
+Material Icon Theme
+Auto Rename Tag
+Better Comments
+Path Intellisense
+IntelliSense for CSS class names in HTML
+
+
+-------------------------
+<!DOCTYPE html>
+<html>
+<head>
+   <title>HTML Session</title>
+   
+   <!-- <link rel="icon"  href="./cat.jpg"> -->
+   <link rel="icon" href="https://media.istockphoto.com/id/157330341/photo/a-full-single-red-rose-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=eGw-ScUBwV5GZnTXRl4TwyuourAECWLL59R-cFucSfo=">
+</head>
+<body>
+    welcome to html class <br><br>
+    class timing is 5am <br><br>
+    we are good students <br>
+    becuase we are attending 5am classes
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis sequi necessitatibus minima sint amet tempore quia provident unde non aspernatur omnis ratione ipsa, ea corporis quod voluptates dolor suscipit!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis sequi necessitatibus minima sint amet tempore quia provident unde non aspernatur omnis ratione ipsa, ea corporis quod voluptates dolor suscipit!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis sequi necessitatibus minima sint amet tempore quia provident unde non aspernatur omnis ratione ipsa, ea corporis quod voluptates dolor suscipit!
+    </p>
+</body>
+</html>
+
+
+
+
+----------------------
+
+ <p>hello</p>
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+-------------------------
+
+<img src="./dog.jpg" width="300px" height="250px" title="Cat" alt="No Image">
+   <img width="300px" height="250px" src="https://cdn.pixabay.com/photo/2016/11/22/22/20/rose-1850903_640.jpg" title="Flower" >
+
+---------------------------------------
+
+ <!-- <video src="./day 2 introduction.wmv" controls></video> -->
+   <video src="./rabbit.mp4" controls></video>
+
+--------------------------
+
+  <audio src="./Pushpa Pushpa - Pushpa 2.mp3" controls></audio>
+
+----------------------
+
+ <!-- <iframe src="https://www.youtube.com/embed/GsfYqyKnHfY" allowfullscreen></iframe>
+
+  <iframe src="./test.html" ></iframe> -->  
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9415380486575!2d77.66645537380803!3d12.847052517599264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae149285b279d1%3A0x8d1750ebbe9a9c0a!2sNTTF%20Electronics%20%26%20IT!5e0!3m2!1sen!2sin!4v1720224228137!5m2!1sen!2sin" width="600" height="450" ></iframe>
+
+ ----------------------------------------------------
+<!-- <h1>MERN</h1> 
+ <ol type="I">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ol>
+
+ <hr>
+
+ <ol type="1" start="11">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ol>
+
+ <hr>
+
+ <ol type="A" start="13">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ol> -->
+
+ <h1>MERN</h1> 
+ <ul type="disc">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ul>
+
+ <hr>
+
+ <ul type="square">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ul>
+
+ <hr>
+
+ <ul type="circle">
+    <li>Mongodb</li>
+    <li>Expressjs</li>
+    <li>Reactjs</li>
+    <li>Nodejs</li>
+ </ul>
+--------------------------------------------------
+
+ <dl>
+        <dt>MongoDB</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae dolore culpa commodi itaque eligendi adipisci temporibus nemo nulla ducimus, illo minima ab, numquam veritatis atque alias doloribus aliquam cumque?</dd>
+    </dl>
+
+    <dl>
+        <dt>Reactjs</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae dolore culpa commodi itaque eligendi adipisci temporibus nemo nulla ducimus, illo minima ab, numquam veritatis atque alias doloribus aliquam cumque?</dd>
+    </dl>
+
+    <dl>
+        <dt>Nodejs</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae dolore culpa commodi itaque eligendi adipisci temporibus nemo nulla ducimus, illo minima ab, numquam veritatis atque alias doloribus aliquam cumque?</dd>
+    </dl>
+
+    <dl>
+        <dt>Expressjs</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae dolore culpa commodi itaque eligendi adipisci temporibus nemo nulla ducimus, illo minima ab, numquam veritatis atque alias doloribus aliquam cumque?</dd>
+    </dl>
+----------------------------------------------------------------
+
+<marquee scrollamount="30">MongoDb</marquee>
+    <!-- <marquee direction="right" behavior="slide" loop="4">Express</marquee> -->
+    <marquee direction="right" behavior="alternate" scrollamount="20" loop="10">Express</marquee>
+
+    <marquee height="100px" bgcolor="red" direction="up" scrolldelay="1000">React</marquee>
+    <marquee height="100px" bgcolor="yellow" direction="down" loop="4">Nodejs</marquee>
+
+    <marquee behavior="alternate" scrollamount="20">
+        <img src="./cat.jpg" height="100px" width="100px">
+    </marquee>
+-------------------------------------------------------
+
+ <details>
+        <summary>MonogoDb</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum cupiditate facere doloremque ut tempore iure labore officiis voluptatem ipsam ad perspiciatis aperiam quis quod aliquid reiciendis neque molestiae optio.</p>
+    </details>
+
+    <details>
+        <summary>Express</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum cupiditate facere doloremque ut tempore iure labore officiis voluptatem ipsam ad perspiciatis aperiam quis quod aliquid reiciendis neque molestiae optio.</p>
+    </details>
+
+    <details>
+        <summary>Reactjs</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum cupiditate facere doloremque ut tempore iure labore officiis voluptatem ipsam ad perspiciatis aperiam quis quod aliquid reiciendis neque molestiae optio.</p>
+    </details>
+
+    <details>
+        <summary>Nodejs</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum cupiditate facere doloremque ut tempore iure labore officiis voluptatem ipsam ad perspiciatis aperiam quis quod aliquid reiciendis neque molestiae optio.</p>
+    </details>
+</body>
+</html>
+----------------------------------------------------------------------------------------
+ <!-- <a href="./test.html">Test</a> <br>
+    <a href="https://www.goodreturns.in/gold-rates/bangalore.html">Bangalore Gold Rate</a>
+   
+    <a href="./rabbit.mp4">
+        <img height="50px" width="50px" src="./cat.jpg" alt="">
+    </a>
+
+    <a href="./cat.jpg">Cat</a> -->
+
+    <img src="./cat.jpg" height="100px" width="100px" alt="">
+    <!-- <a href="./Pushpa Pushpa - Pushpa 2.mp3" download>Download</a> -->
+    <a href="./Pushpa Pushpa - Pushpa 2.mp3" download="raju">Download</a>
+
+<a href="#html" title="Hyper Text Markup Language">HTML</a><hr>
+   <a href="#css">CSS</a><hr>
+   <a href="#js" target="_blank">Javascript</a><hr>
+   <a href="#rjs">Reactjs</a><hr>
+   <a href="#mdb">MongoDB</a><hr>
+   
+
+   <h1 id="html">HTML</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+   <hr>
+   <h1 id="css">CSS</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+   <hr>
+   <h1 id="js">Javascript</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+   <hr>
+   <h1 id="rjs">Reactjs</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+   <hr>
+
+   <h1 id="mdb">MongoDB</h1>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum sed beatae, esse dolorem ipsum exercitationem. Cupiditate aut officiis deleniti, exercitationem asperiores consequuntur tempora ratione ducimus doloremque, sint, et vel.
+    Et necessitatibus maxime tempora sapiente doloremque cumque praesentium consequatur. Ea suscipit aliquid molestias consequatur labore repellendus libero aperiam necessitatibus placeat impedit, dolor facere, quae quis consectetur odio vero minus ratione!
+   </p>
+
+
+------------------------------------------------
+ <table border cellspacing="20px" cellpadding="20px" rules="all">
+        <thead>
+            <tr>
+                <th>SL No</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ram Kumar</td>
+                <td>CSE</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Raj Kumar</td>
+                <td>CSE</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pawan Kumar</td>
+                <td>CSE</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kalyan Kumar</td>
+                <td>CSE</td>
+                <td>Male</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Total</td>
+                <th>4</th>
+            </tr>
+        </tfoot>
+    </table>
+
+----------------------------------------------
+<table border  rules="all" cellspacing="30px">
+       <tr>
+        <td colspan="2">Apple1</td>
+        <!-- <td>Apple2</td> -->
+        <td>Apple3</td>
+        <td>Apple4</td>
+        <td>Apple5</td>
+       </tr>
+       <tr>
+        <td>Apple6</td>
+        <td colspan="4">Apple7</td>
+        <!-- <td>Apple8</td>
+        <td>Apple9</td>
+        <td>Apple10</td> -->
+       </tr>
+       <tr>
+        <td rowspan="2">Apple11</td>
+        <td rowspan="3">Apple12</td>
+        <td>Apple13</td>
+        <td rowspan="3">Apple14</td>
+        <td>Apple15</td>
+       </tr>
+       <tr>
+        <!-- <td>Apple16</td> -->
+        <!-- <td>Apple17</td> -->
+        <td>Apple18</td>
+        <!-- <td>Apple19</td> -->
+        <td>Apple20</td>
+       </tr>
+       <tr>
+        <td>Apple21</td>
+        <!-- <td>Apple22</td> -->
+        <!-- <td>Apple23</td> -->
+        <td>Apple24</td>
+        <td>Apple25</td>
+       </tr>
+       <tr>
+        <td colspan="5">Apple26</td>
+        <!-- <td>Apple27</td>
+        <td>Apple28</td>
+        <td>Apple29</td>
+        <td>Apple30</td> -->
+       </tr>
+    </table>
+
+----------------------------------------
+<form>
+    <!-- <input type="text" placeholder="Username" required maxlength="10">
+    <input type="password" placeholder="Password" required minlength="8"> <hr>
+    <input type="email" placeholder="Email">
+    <input type="url" placeholder="Enter URL"><hr>
+    <label>DOB: </label><input type="date" min="2024-07-04" max="2024-07-18">
+    <label>Month: </label><input type="month"><hr>
+    <label>Week: </label><input type="week">
+    <label>Time: </label><input type="time"><hr>
+    <input type="number" placeholder="Age" min="18" max="34">
+    <label>Date and Time: </label><input type="datetime-local"><hr>
+    <label>Adhar Card: </label><input type="file" accept="application/pdf"><hr> -->
+
+    <!-- <label>Gender: </label>
+    <input type="radio" name="gender" checked><label for="">Male</label>
+    <input type="radio" name="gender" disabled><label for="">Female</label>
+    <input type="radio" name="gender" disabled><label for="">Others</label>
+    <hr>
+
+    <label>Skills: </label>
+    <input type="checkbox" id="mdb"><label for="mdb">MongoDB</label>
+    <input type="checkbox" id="e"><label for="e">Express</label>
+    <input type="checkbox" id="rjs"><label for="rjs">React</label>
+    <input type="checkbox" id="n"><label for="n">Node</label> -->
+
+    <!-- <textarea rows="10px" cols="40px" placeholder="Address"></textarea> -->
+     <!-- <label for="">Select Your State: </label>
+    <select>
+        <option value="OD">Odissa</option>
+        <option value="kar">Karnataka</option>
+        <option value="MH">Maharashtra</option>
+        <option value="AP">Andhra Prades</option>
+        <option value="MP">Madhya Pradesh</option>
+     </select>
+<hr>
+<label for="">Select Your Skills: </label>
+<select multiple>
+    <option value="OD">HTML</option>
+    <option value="kar">Javascript</option>
+    <option value="MH">CSS</option>
+    <option value="AP">ReactJS</option>
+    <option value="MP">MongoDB</option>
+ </select> -->
+
+ <label for="">Select Food Items:</label>
+ <select multiple>
+    <optgroup label="Non-Veg">
+        <option value="Biryani">Biryani</option>
+        <option value="Kabab">Kabab</option>
+        <option value="Chilly Chicken">Chilly Chicken</option>
+        <option value="Fish Fry">Fish Fry</option>
+    </optgroup>
+    <optgroup label="Veg">
+        <option value="Idly">Idly</option>
+        <option value="Dose">Dose</option>
+        <option value="Upma">Upma</option>
+        <option value="Curd Rice">Curd Rice</option>
+    </optgroup>
+ </select>
+
+ <hr>
+
+    <button type="submit">Register</button>
+ </form>
+
+<form action="./test.html" method="post">
+   <input type="text" placeholder="username" name="user"> <hr>
+   <input type="password" placeholder="Password" name="pwd"><hr>
+
+    <button type="submit">Login</button>
+ </form>
+
+
+--------------------------------------------CSS-------------------------------------
+1.In How many ways we can apply css to html?
+or
+Types of css
+
+1.Inline css(one tag)
+    <p style="color:red;">MongoDB</p>
+    <p style="color:red">Reactjs</p>
+    <p style="color:red">Nodejs</p>
+2.Internal css
+<style>
+    p
+    {
+        color: green;
+    }
+3.External Css
+    create a seperate file with .css extension then attach to 
+    your html by using link tag (reusability of code)
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Session</title>
+    <link rel="icon" href="./cat.jpg">
+    <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+   
+    <p>MongoDB</p>
+    <p>Reactjs</p>
+    <p>Nodejs</p>
+    <p>Expressjs</p>
+
+    <hr>
+
+    <h1>javascript</h1>
+    <h1>CSS</h1>
+    <h1>HTML</h1>
+
+    <p>para</p>
+
+</body>
+</html>
+
+--------------------------------------
+<p style="color: rgb(180, 128, 50);font-size: 100px;
+    font-family: algerian;font-style: italic;
+    text-shadow:2px 3px 10px red ;">MongoDB</p>
+    <p style="font-weight: bold;">Reactjs</p>
+    <p>Nodejs is backend javascript</p>
+
+    <p style="text-transform: lowercase;">Nodejs is backend javascript</p>
+    <p style="text-transform: uppercase;">Nodejs is backend javascript</p>
+    <p style="text-transform: capitalize;">Nodejs is backend javascript</p>
+    
+    <p>Expressjs</p>
+
+    <hr>
+
+    <h1 style="text-decoration: line-through;text-decoration-color: red;
+    text-decoration-style: double;">javascript</h1>
+    <a href="" style="text-decoration: none;">CSS</a>
+    <h1>HTML</h1>
+
+    <p style="text-align: justify;text-indent: 40px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptate distinctio esse laboriosam deleniti, quae ab error illo tenetur! Non eligendi assumenda adipisci corporis delectus rerum eaque ullam aliquid odit?
+    Incidunt porro, corporis suscipit praesentium asperiores minima eos harum aut quia, vitae magnam repellendus quisquam voluptates, voluptatem necessitatibus similique enim optio eaque nobis odio maiores hic voluptatum. Nesciunt, neque corrupti.
+    Odit maiores suscipit autem nostrum nesciunt pariatur nobis, dicta odio! Nisi aliquam iusto, quidem quae odit suscipit voluptas et ducimus dolore delectus aliquid accusantium ex vitae, sit deleniti culpa ab.
+    Illo cum fugit commodi alias ullam, quia possimus reprehenderit porro. Obcaecati sunt ea pariatur impedit quae maxime voluptate laudantium dolor fugit! Quos corporis ratione rem perspiciatis eum exercitationem doloremque culpa!
+    Quis tempora eos fugiat quidem reprehenderit atque explicabo iure, ex, suscipit vero pariatur aperiam vitae repellendus odio eius molestiae sed obcaecati? Officiis alias doloremque facere eaque reprehenderit quas quidem magnam? </p>
+
+---------------------------------Text-properties
+1.color:any color name,color codes 
+2.text-align:left,right,center,justify 
+3.text-indent:any px
+4.text-transform:lowercase,uppercase,capitalize
+5.text-shadow:x-axis y-axis blur-ratio color 
+6.font-weight:lighter,bold,bolder,Any number in 100's 
+7.font-style:normal,italic,
+8.font-family:Any family name
+9.font-size:any px
+10.text-decoration:none,underline,overline,line-through
+
+COLOR CODES
+------------
+
+R-red
+G-Green
+B-Blue
+
+(16 millions)
+
+color rang=0-255
+0-lowest value(no color)
+255-highest value(dark color)
+
+rgb(255,0,0)--Red----------rgb(120,0,0)--shade of Red
+rgb(0,255,0)--Green----------rgb(0,40,0)--shade of Green
+rgb(0,0,255)--Blue----------rgb(0,0,2)--shade of Blue
+rgb(0,0,0)--Black
+rgb(255,255,255)--white
+rgb(120,40,0)---Combination Red and green
+rgb(20,0,30)---Combination Red and blue
+rgb(0,40,30)---Combination gree and blue
+
+
+Hexa Decimal VAlues
+0-f  0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+ff-Dark color-- highest values
+00-No Color ----Lowest Value
+  R G B
+#ff0000----Red
+#00ff00----Green
+#0000ff----Blue
+#ffffff----white
+#000000----black
+#01000f----Red
+
+
+
+----------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Session</title>
+    <link rel="icon" href="./cat.jpg">
+    <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+   
+    <!-- <h1 class="test">MongoDB</h1>
+    <h1 id="sample">ExpressJs</h1>
+    <h1 class="test">Reactjs</h1>
+    <h1 class="test">Nodejs</h1>
+
+    <hr>
+    <p id="sample">HTML</p>
+    <p class="test">CSS</p>
+    <p class="test">Javascript</p>
+    <p class="test" id="sample">Bootstrap</p>
+
+    <hr>
+    <a href="">Postman</a>
+    <a href="" class="test">VS Code</a>
+    <a href="">Nodemon</a>
+    <a href="" id="sample">Joi</a> -->
+
+
+
+    <!-- <p class="abc">P outside Div</p>
+
+    <div>
+        <p>P inside Div</p>
+        <p>P inside Div</p>
+
+    </div>
+
+    <p>P outside Div</p>
+
+    <section>
+        <p>P inside Section</p>
+        <p>P inside Section</p>
+        <div>
+            <p>P inside section and div</p>
+            <p>P inside section and div</p>
+        </div>
+
+    </section> -->
+
+    <input type="text" placeholder="TEXT" required>
+    <input type="password" placeholder="PASSWORD">
+    <input type="number" placeholder="NUMBER" required>
+    <input type="email" placeholder="Email">
+    <input type="text" placeholder="TEXT"   >
+
+
+
+
+
+</body>
+</html>
+
+----------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Session</title>
+    <link rel="icon" href="./cat.jpg">
+    <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+   
+    <!-- <h1 class="test">MongoDB</h1>
+    <h1 id="sample">ExpressJs</h1>
+    <h1 class="test">Reactjs</h1>
+    <h1 class="test">Nodejs</h1>
+
+    <hr>
+    <p id="sample">HTML</p>
+    <p class="test">CSS</p>
+    <p class="test">Javascript</p>
+    <p class="test" id="sample">Bootstrap</p>
+
+    <hr>
+    <a href="">Postman</a>
+    <a href="" class="test">VS Code</a>
+    <a href="">Nodemon</a>
+    <a href="" id="sample">Joi</a> -->
+
+
+
+    <!-- <p class="abc">P outside Div</p>
+
+    <div>
+        <p>P inside Div</p>
+        <p>P inside Div</p>
+
+    </div>
+
+    <p>P outside Div</p>
+
+    <section>
+        <p>P inside Section</p>
+        <p>P inside Section</p>
+        <div>
+            <p>P inside section and div</p>
+            <p>P inside section and div</p>
+        </div>
+
+    </section> -->
+
+    <input type="text" placeholder="TEXT" required>
+    <input type="password" placeholder="PASSWORD">
+    <input type="number" placeholder="NUMBER" required>
+    <input type="email" placeholder="Email">
+    <input type="text" placeholder="TEXT"   >
+
+
+
+
+
+</body>
+</html>
+-------------------------------Selectors
+--------------
+1. Selectors are used to select or target html elements to apply css
+2.Types OPf Selectors 
+        1.Simple  or Element Selector(Selects all tags of same type)
+        2.Group Selector (Selects multiple tags of diffrent types in group)
+        3.Class Selector(Selects Perticular tag with classname and tag name Combination)
+        4.Generic Class Selector(Selects any tag with Class Name)
+        5.Id Selector(Selects any tag with Id Name)
+        6.Universal Selector (which selects all the tags of HTML)
+        7.Child Selector(Selects based on Parent Child Combination )
+        8.Attribute Selector (Selects based attribute name)
+        9.Attribite value Selector(Selects based on attribute name and value)
+
+
+-----------------------------------
+
+
+body
+{
+    /* background-color: rgb(255, 174, 0); */
+    background-image: url("https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+---------------------------------------
+  <section class="demo">
+            <p>P inside Demo Class</p>
+   </section>
+
+
+   <section>
+    <p>P inside Section Class</p>
+</section>
+
+
+   <p>P outside Demo Class</p>
+-------------------------
+.demo
+{
+  height: 500px;
+  width: 500px;
+
+  background-color: lightblue;
+}
+
+.demo p
+{
+    height: 250px;
+    width: 250px;
+    background-color: hotpink;
+    background-image: url("./cat.jpg");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position:bottom right;
+}
+
+-------------------------
+.demo
+{
+  height: 500px;
+  width: 500px;
+  /* background-image: linear-gradient(red,green,blue,pink,yellow); */
+  /* background-image: radial-gradient(red,green,blue,pink,yellow); */
+  background-image: radial-gradient(red,aqua);
+}
+----------------------------
+
+.demo
+{
+
+  background-color: hotpink;
+  height: 100px;
+}
+
+---------------------
+.demo
+{
+
+height: 500px;
+width: 500px;
+/* background-color: pink; */
+background-image: radial-gradient(rgba(225, 19, 229, 0.491),rgba(120, 12, 244, 0.943)),
+url("./cat.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+  
+}
+
+-------------------------------
+
+.demo
+{
+
+height: 300px;
+width: 300px;
+background-color: lightcoral;
+overflow: auto;
+  
+}
+
+----------------------
+
+CSS Backgrounds
+----------------
+1.background-color:Any Color Name,color codes
+2.background-image:url("image path"),linear-gradient(colors),radial-gradient(colors);
+3.background-attachment:scroll(default),fixed
+4.background-size:width height,cover,contain
+5.background-position:left,right,center,top,bottom,bottom-right......
+6.backround-repeat:reapeat,reapeat-x,reapeat-y,no-reapeat
+
+
+CSS Overflow
+-------------
+1.overflow-x:visible,hidden,scroll,auto
+2.overflow-y:visible,hidden,scroll,auto
+3.overflow:visible,hidden,scroll,auto
+
+
+--------------------------------
+p
+{
+width: 36px;
+background-color: lightcoral;
+/* border-style: solid;
+border-color: blue;
+border-width: 5px; */
+border:2px solid blue;
+/* padding-left: 10px;
+padding-top: 20px;
+padding-right: 30px;
+padding-bottom: 5px; */
+/* padding: 20px; */
+/* padding: 20px 10px; */
+padding: 10px 20px 30px 50px;
+/* border-left: 6px dotted red; */
+outline:3px solid aqua;
+outline-offset: 2px;
+/* margin: 40px; */
+/* margin: 40px 100px; */
+margin: 50px 30px 10px 100px;
+}
+
+--------------------------
+*
+{
+    box-sizing: border-box;
+}
+
+p
+{
+width: 100px;
+height: 100px;
+background-color: lightcoral;
+padding: 50px;
+}
+
+div
+{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+------------------------------
+p
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+    /* border-radius:20px */
+    /* border-radius:20px 100px */
+    /* border-radius:10px 30px 80px 20px */
+    border-radius: 100%;
+}	
+
+---------------------------------------*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+button
+{
+    margin: 50px;
+}
+
+.btn-color
+{
+    color: white;
+}
+
+.btn-bgcolor
+{
+    background-color: crimson;
+}
+
+.btn-padding
+{
+    padding: 5px 10px;
+}
+.btn-border
+{
+    border: 2px solid red;
+}
+
+.btn-border-radius
+{
+    border-radius: 5px;
+}
+.btn-shadow
+{
+    box-shadow: 2px 2px 1px purple;
+}	
+
+
+----------------------------------------------
+<p>Para 1</p>
+ <p>Para 2</p>
+ <p>Para 3</p>
+ <p>Para 4</p>
+ <hr>
+ <div>div 1</div>
+ <div>div 2</div>
+ <div>div 3</div>
+ <div>div 4</div>
+ <hr>
+
+ <a href="">Anchor</a>
+ <a href="">Anchor</a>
+ <a href="">Anchor</a>
+ <a href="">Anchor</a>
+<hr>
+<span>Span</span>
+<span>Span</span>
+<span>Span</span>
+<span>Span</span>
+
+-------------------
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p,div
+{
+    background-color: red;
+    display: inline;
+}
+
+a,span
+{
+    background-color: yellow;
+    display: block;
+}
+-------------------------
+ <div>div 1</div>
+ <div>div 2</div>
+ <div style="display: none;">div 3</div>
+ <div>div 4</div>
+ <div>div 5</div>
+ <div>div 6</div>
+ <div>div 7</div>
+ <div>div 8</div> 
+ <div style="visibility: hidden;">div 9</div>
+ <div>div 10</div>
+ <div>div 11</div>
+------------------------
+div
+{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+
+ <div>div 12</div>
+ <hr>
+----------------------------
+
+section
+{
+    border: 5px solid purple;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* justify-content: space-around;horizontally */
+    /* align-items: center ;vertically */
+
+    /* flex-direction: column; */
+    /* justify-content: space-between;vertically */
+    /* align-items: center;hoizontally */
+    
+
+}
+
+div
+{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 20px; 
+}
+-------------------------
+
+
+section
+{
+    border: 5px solid purple;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+----------------------------------
+
+div
+{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 20px; 
+}
+
+display propties
+---------------
+
+display:inline,block,inline-block,none,flex
+
+display:flex;
+flex-direction:row,coloumn,row-reverse,coloumn-reverse;
+flex-wrap:nowrap,wrap;
+justify-content:start,flex-start,end,flex-end,space-between,space-around,space-evenly,center
+align-ites:start,center,end
+
