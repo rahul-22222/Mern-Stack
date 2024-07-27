@@ -1,0 +1,133 @@
+----------------------------HTML---------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knight</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2019/10/27/07/37/watermelon-4580910_640.png">
+</head>
+<body>
+    <!-- Banner starts -->
+        <section class="banner">
+            <div class="banner-content">
+                <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/hero-logo.png" alt="">
+                <h1>Welcome To Knight Studios</h1>
+                <p>E ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</p>
+                <a href="">GET STARTED</a>
+            </div>
+        </section>
+    <!-- Banner Ends -->
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
+</body>
+</html>
+
+-----------------------------------CSS------------------------------
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Banner Starts */
+
+.banner
+{
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url("https://bootstrapmade.com/demo/templates/Knight/assets/img/hero-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content
+{
+    /* border:2px solid red; */
+    width: 60%;
+    color: white;
+    text-align: center;
+    padding: 20px 50px
+}
+
+.banner .banner-content h1
+{
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 20px 0px 30px 0px;
+}
+.banner .banner-content p
+{
+   color: rgb(161, 157, 157);
+   margin-bottom: 50px;
+}
+.banner .banner-content a
+{
+    background-color: #7cc576;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition:all .5s ;
+}
+.banner .banner-content a:hover
+{
+    background-color: white;
+    color: #7cc576;
+}
+/* Banner Ends */

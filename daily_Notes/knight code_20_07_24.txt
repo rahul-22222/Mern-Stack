@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knight</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2019/10/27/07/37/watermelon-4580910_640.png">
+</head>
+<body>
+    <!-- Banner starts -->
+        <section class="banner">
+            <div class="banner-content">
+                <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/hero-logo.png" alt="">
+                <h1>Welcome To Knight Studios</h1>
+                <p>E ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</p>
+                <a href="">GET STARTED</a>
+            </div>
+        </section>
+    <!-- Banner Ends -->
+
+    <!-- Navbar starts -->
+        <nav>
+            <a href="">
+                <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/logo.png" alt="">
+            </a>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+                <li>
+                    <a href="">Portfolio</a>
+                </li>
+                <li>
+                    <a href="">Team</a>
+                </li>
+                <li>
+                    <a href="">Pricing</a>
+                </li>
+                <li>
+                    <a href="">Dropdown</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Aboutus starts -->
+        <section class="aboutus">
+            <h1 class="aboutus-heading">About US</h1>
+            <p class="aboutus-para">Magnam dolores commodi suscipit eius consequatur</p>
+            <div class="aboutus-content">
+                <div class="aboutus-content-image">
+                    <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/about.jpg" alt="">
+                </div>
+                <div class="aboutus-content-text">
+                    <h1>Voluptatem dignissimos provident quasi corporis</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                        </li>
+                    </ul>
+                    <p class="para">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+    <!-- Aboutus Ends -->
+     
+</body>
+</html>
+
+--------------------------------------------------------------
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+    
+/* Banner Starts */
+
+.banner
+{
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url("https://bootstrapmade.com/demo/templates/Knight/assets/img/hero-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content
+{
+    /* border:2px solid red; */
+    width: 60%;
+    color: white;
+    text-align: center;
+    padding: 20px 50px
+}
+
+.banner .banner-content h1
+{
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 20px 0px 30px 0px;
+}
+.banner .banner-content p
+{
+   color: rgb(161, 157, 157);
+   margin-bottom: 50px;
+}
+.banner .banner-content a
+{
+    background-color: #7cc576;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition:all .5s ;
+}
+.banner .banner-content a:hover
+{
+    background-color: white;
+    color: #7cc576;
+}
+/* Banner Ends */
+
+/* Navbar starts */
+    nav
+    {
+        background-color: rgb(254, 252, 252);
+        box-shadow: 2px 0px 10px lightgrey;
+        padding: 20px 100px;
+        position: sticky;
+        top:0px
+    }
+
+    nav a img
+    {
+        width: 40px;
+    }
+    nav ul
+    {
+        /* border: 2px solid red; */
+        display: inline;
+        margin-left: 300px;
+    }
+
+    nav ul li
+    {
+        /* border: 2px solid green; */
+        display: inline;
+    }
+
+    nav ul li a
+    {
+        margin-left: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgba(128, 128, 128, 0.648);
+        transition: color .6s;
+    }
+    nav ul li a:hover
+    {
+        color: #7cc576;
+    }
+/* Navbar Ends */
+
+/* aboutus starts */
+    .aboutus
+    {
+        /* border: 2px solid green; */
+        margin: 70px 50px;
+        padding: 20px;
+    }
+    .aboutus .aboutus-heading
+    {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .aboutus .aboutus-para
+    {
+        text-align: center;
+        font-size: 15px;
+        color: rgb(185, 182, 182);
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .aboutus-content
+    {
+        /* border:2px solid red; */
+        padding: 20px;
+        display: flex;
+
+    }
+    .aboutus-content-image,.aboutus-content-text
+    {
+        /* border: 2px solid purple; */
+        margin: 10px;
+    }
+    .aboutus-content-image
+    {
+        width: 50%;
+        padding: 20px;
+        box-shadow: 2px 2px 30px 2px lightgray;
+    }
+    .aboutus-content-image img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .aboutus-content-text
+    {
+        width: 50%;
+    }
+    .aboutus-content-text h1
+    {
+        font-size: 26px;
+        color: #00000087
+    }
+    .aboutus-content-text p
+    {
+        font-style: italic;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: rgb(118, 117, 117);
+    }
+    .aboutus-content-text ul li
+    {
+        list-style-type: none;
+        margin-bottom: 15px;
+        color: rgb(118, 117, 117);
+        line-height: 25px;
+    }
+    .aboutus-content-text .para
+    {
+        font-style: normal;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .aboutus-content-text i
+    {
+        color: #7cc576;
+    }
+/* aboutus ends */

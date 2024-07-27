@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./practice.css">
+</head>
+<body>
+
+    <section class="team">
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/team/team-1.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/team/team-2.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/team/team-3.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Company/assets/img/team/team-4.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Append/assets/img/team/team-2.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Append/assets/img/team/team-4.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Append/assets/img/team/team-6.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Append/assets/img/team/team-1.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+        <div class="team-cards">
+            <div class="image">
+                <img src="https://bootstrapmade.com/demo/templates/Append/assets/img/team/team-3.jpg" alt="">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-skype"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <h2>Sarah Jhonson</h2>
+            <p>Sarah Jhonson</p>
+            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+        </div>
+    </section>
+
+</body>
+</html>
+
+
+---------------------------------------
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: lightgrey ;
+}
+.team
+{
+    margin: 20px;
+    border: 2px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-cards
+{
+   border-radius: 20px;
+   box-shadow: 2px 2px 30px 7px white;
+    width: 350px;
+    height: 450px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 2px;
+}
+.team-cards .image
+{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.team-cards .image img
+{
+    height: 100%;
+    width: 100%;
+}
+.team-cards .image .icons
+{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+}
+.team-cards .image .icons i
+{
+    margin: 20px;
+}
+
+.team-cards:hover .image .icons
+{
+    height: 50px;
+    transition: all .4s;
+}
+
+/* --------------Responsive Media Queries------------------ */
+
+/*! mobile devices  */
+
+@media (min-width:320px) and (max-width:480px)
+{
+    /* body
+    {
+        background-color: red;
+    } */
+    .team
+    {
+        justify-content: center;
+        border: none;
+    }
+    .team-cards
+    {
+        border:1px solid blue
+    }
+    .team-cards h2
+    {
+        font-size: 16px;
+        text-align: center;
+        color: green;
+    }
+}
+
+/* !  iPads and Tablets – 481px — 768px */
+@media (min-width:481px) and (max-width:768px)
+{
+    .team
+    {
+        justify-content: center;
+    }
+    .team-cards
+    {
+        text-align: center;
+        width: 500px;
+    }
+}
+
+/* ! Laptops and small screen – 769px — 1024px */
+
+@media (min-width:769px) and (max-width:1024px)
+{
+    .team
+    {
+        justify-content: space-around;
+    }
+    .team-cards
+    {
+        text-align: center;
+        width: 300px;
+        padding: 2px px;
+    }
+}
+
+/* ! Large screens and Desktops – 1025px — 1200px */
+
+@media (min-width:1025px) and (max-width:1200px)
+{
+    .team
+    {
+        justify-content: space-around;
+    }
+    .team-cards
+    {
+        text-align: center;
+        width: 400px;
+        padding: 2px px;
+    }
+}
+
+
+------------------------
+https://michalsnik.github.io/aos/
+https://github.com/michalsnik/aos

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./practice.css">
+</head>
+<body>
+
+    <section>
+        <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/portfolio/portfolio-6.jpg" alt="">
+        <div class="chid-div">
+            <div class="child-div-content">
+                Card 1
+                card <br>
+                +  $
+            </div>
+        </div>
+       
+    </section>
+    <section>
+        <img src="https://bootstrapmade.com/demo/templates/Knight/assets/img/portfolio/portfolio-4.jpg" alt="">
+        <div class="chid-div">
+            <div class="child-div-content">
+                Card 1
+                card <br>
+                +  $
+            </div>
+        </div>
+       
+    </section>
+
+    <img class="myimage" src="https://bootstrapmade.com/demo/templates/Knight/assets/img/clients/client-1.png" alt="">
+    
+</body>
+</html>
+
+----------------------------
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    /* border: 2px solid purple; */
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+section img
+{
+    width: 100%;
+    height: 100%;
+}
+
+section .chid-div
+{
+    background-color: rgba(0, 0, 0, 0.642);
+    color: white;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    margin: 29px;
+    opacity: 0;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:hover .chid-div
+{
+    opacity: 1;
+    transform: scale(1.3);
+}
+.child-div-content
+{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -40px;
+    
+}
+.child-div-content::before
+{
+    content: "";
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -35px;
+    left: -71px;
+}
+.child-div-content::after
+{
+    content: "";
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: -8px;
+    right: -71px;
+}
+
+
+.myimage
+{
+    filter: grayscale(100%);
+    transition: all .6s;
+}
+
+.myimage:hover
+{
+    filter: none;
+    transform: scale(1.1);
+}
